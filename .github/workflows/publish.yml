@@ -6,8 +6,8 @@ jobs:
     publish:
         runs-on: ubuntu-latest
         steps:
-            - name: basil
-              uses: actions/basil@v2
+            - name: checkout
+              uses: actions/checkout@v2
             - name: node
               uses: actions/setup-node@v2
               with:
